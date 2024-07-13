@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TransferActivity">
+
+    <EditText
+        android:id="@+id/etCuentaDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cuenta Destino" />
+
+    <EditText
+        android:id="@+id/etMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTipoTransferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipo de Transferencia" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/etCodigoValidacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de Validación" />
+
+    <Button
+        android:id="@+id/btnTransferir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transferir" />
+
+    <TextView
+        android:id="@+id/tvResumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="16sp" />
+</LinearLayout>

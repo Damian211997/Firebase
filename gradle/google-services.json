@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "775559833561",
+    "firebase_url": "https://eva3arduino-default-rtdb.firebaseio.com",
+    "project_id": "eva3arduino",
+    "storage_bucket": "eva3arduino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775559833561:android:ea09c450feb734cd835bc8",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNJCgjY5u9fpadfKSQni64JubT-yQBkf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/etRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rut"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/etApellidoP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido_paterno" />
+
+    <EditText
+        android:id="@+id/etApellidoM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apellido_materno" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tel_fono" />
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_electr_nico" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar" />
+
+</LinearLayout>
